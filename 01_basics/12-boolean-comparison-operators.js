@@ -5,7 +5,7 @@
 let num1 = 7;
 let num2 = "4";
 
-console.log(num1>num2); //false
+console.log(num1>num2); //true
 
 // == vs === :
 console.log(num1 == num2); // == : checks value not datatype
