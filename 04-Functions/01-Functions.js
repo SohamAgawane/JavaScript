@@ -14,7 +14,34 @@ function sum(a, b) {
 }
 
 sum(2, 4);
-
 sum(4, 5);
 
-sum(3, 9);
+function sumTwoNumbers(number1, number2) {
+    let number3 = number1 + number2;
+    console.log(number3);
+    return number3;
+}
+sumTwoNumbers(2, 4);
+
+
+// input - String
+// output - firstCharacter
+function firstCharacter(String) {
+    return String[0];
+}
+console.log(firstCharacter("Soham"));
+
+
+// input - array, target (number)
+// output - index of target if target present in array
+function findTarget(array, target) {
+    for(let i=0; i<array.length; i++){
+        if(array[i]===target){
+            return i;
+        }
+    }
+    reuturn -1;
+}
+const myArray = [1,3,8,9]
+const ans = findTarget(myArray, 8);
+console.log(ans);
